@@ -7,7 +7,7 @@ var myBook1 = new Book("Cats", ["Written by James", "Cats are awesome", "How to 
 var myBook2 = new Book("Dogs", ["Written by Kim", "Dogs are awesome", "How to adopt a dog"]);
 
 var cats = document.getElementById("cats");
-var dogs = document.getElementById("dogs")
+var dogs = document.getElementById("dogs");
 
 Book.prototype.read = function() {
 	var result = "";
