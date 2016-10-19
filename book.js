@@ -13,7 +13,7 @@ Book.prototype.read = function() {
 	var result = "";
 
 	//for..in..
-	
+
 	// On MDN, they tell me it should not be used iterate
 	// over an array where index order are important
 
@@ -44,7 +44,7 @@ Book.prototype.read = function() {
 		result += "Page " + [i + 1] + ": " + this.body[i] + "<br>";
 	}
 
-	return "Title: " + this.title + "\n" + result;
+	return "Title: " + this.title + "<br>" + result;
 };
 
 cats.innerHTML = myBook1.read();
